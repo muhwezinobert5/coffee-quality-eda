@@ -111,7 +111,27 @@ Significance threshold:
 Raw dataset files are excluded via .gitignore to ensure repository cleanliness and reproducibility.
 
 ---
+## 8. Statistical Exploratory Data Analysis
 
+### 8.1 Pearson Correlation (Numerical Features vs Target)
+
+- Measures linear association between numeric sensory features and Total Cup Points  
+- p-value < 0.05 indicates statistical significance  
+
+### 8.2 ANOVA (Categorical Features vs Target)
+
+- Tests whether `Processing Method` significantly affects Total Cup Points  
+- p-value < 0.05 indicates significant difference between groups  
+
+### 8.3 Chi-Square Test (Categorical Features vs Binary Target)
+
+- `High_Quality` = 1 if Total Cup Points > 82, else 0  
+- Chi-square test determines association between country of origin and high-quality coffee  
+
+### 8.4 Multiple Testing Adjustment
+
+- Bonferroni correction applied for multiple hypotheses to control Type I error
+---
 ## 9. Reproducibility
 
 To reproduce the analysis:
