@@ -127,6 +127,3 @@ To reproduce the analysis:
 ## 10. Academic Integrity Statement
 
 This repository demonstrates structured, theory-driven exploratory data analysis in alignment with master's-level methodological standards.
----
-
-## 8. Repository Structure
